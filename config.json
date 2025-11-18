@@ -7,7 +7,7 @@
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
     "intervalGetNewCookie": 1440,
-    "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, recommended set to 1440 or 4320"
+    "notes": "time the system automatically retrieves new cookies (minutes), recommended 1440 or 4320"
   },
 
   "antiInbox": false,
@@ -32,6 +32,11 @@
         "😡": "💀"
       }
     }
+  },
+
+  "reactAuto": {
+    "enable": true,
+    "emoji": "🙂"
   },
 
   "adminOnly": {
